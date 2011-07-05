@@ -54,7 +54,7 @@ syn keyword monkeyFunc Seed Rnd
 
 " monkey.set
 syn keyword monkeyFunc FloatSet IntSet StringSet Set
-syn keyword monkeyMeth Clear Count Insert IsEmpty New ObjectEnumerator Remove
+syn keyword monkeyMeth Clear Count Insert IsEmpty ObjectEnumerator Remove
 
 " monkey.stack
 syn keyword monkeyFunc FloatStack IntStack Stack StringStack
