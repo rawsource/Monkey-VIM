@@ -17,8 +17,8 @@ Vim plugin that provides syntax definitions for [Monkey][].
 
 # Credits
 
-The big part of this plugin, the syntax definition, were created by [rawsource]
-and just restructured from me to be [Vundle][] and [Pathogen][] compatible.
+The big part of this plugin, the syntax definition, was created by [rawsource]
+and just restructured by me to be [Vundle][] and [Pathogen][] compatible.
 
   [rawsource]: https://github.com/rawsource
   [Monkey]: http://www.monkeycoder.co.nz
