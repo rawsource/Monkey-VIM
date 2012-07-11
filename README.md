@@ -15,6 +15,12 @@ Vim plugin that provides syntax definitions for [Monkey][].
 1. Install [Pathogen][]
 2. Clone it: `cd ~/.vim/bundle && git clone git://github.com/michaelcontento/Monkey-VIM.git`
 
+# Credits
+
+The big part of this plugin, the syntax definition, were created by [rawsource]
+and just restructured from me to be [Vundle][] and [Pathogen][] compatible.
+
+  [rawsource]: https://github.com/rawsource
   [Monkey]: http://www.monkeycoder.co.nz
   [Vundle]: https://github.com/gmarik/vundle
   [Pathogen]: https://github.com/tpope/vim-pathogen
