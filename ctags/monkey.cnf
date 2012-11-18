@@ -1,0 +1,5 @@
+--langdef=monkey
+--langmap=monkey:.monkey
+--regex-monkey=/^[ \t]*Class[ \t]*([a-zA-Z0-9_]+)/\1/c,classes/
+--regex-monkey=/^[ \t]*Field[ \t]*([a-zA-Z0-9_]+)/\1/f,fields/
+--regex-monkey=/^[ \t]*Method[ \t]*([a-zA-Z0-9_]+)/\1/m,methods/

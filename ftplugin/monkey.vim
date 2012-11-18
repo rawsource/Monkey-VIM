@@ -5,6 +5,26 @@
 " Description:
 "   Capitalizes Monkey keywords when not typed in comments or strings.
 "   To undo capitalization, press ^Xu.
+"   Also supplies basic CTags/Tagbar support
+
+" Tagbar definition for Monkey
+let g:tagbar_type_monkey = {
+    \ 'ctagstype' : 'monkey',
+    \ 'kinds'        : [
+        \'c:classes',
+        \'f:fields',
+        \'m:methods'
+    \],
+    \ 'sro' : '.',
+    \ 'kind2scope' : {
+        \ 'c' : 'Class'
+    \ },
+    \ 'scope2kind' : {
+        \ 'Class' : 'c'
+    \ },
+    \ 'deffile' : expand('<sfile>:p:h:h') . '/ctags/monkey.cnf'
+\}
+
 
 " Mostly copied from SQL iabr plugin
 
