@@ -1,7 +1,7 @@
 " File: monkey.vim
 " Language: Monkey
 " Maintainer: minke
-" Last Change: 1-Nov-2012
+" Last Change: 22-Nov-2012
 " Description:
 "   Capitalizes Monkey keywords when not typed in comments or strings.
 "   To undo capitalization, press ^Xu.
@@ -12,8 +12,11 @@ let g:tagbar_type_monkey = {
     \ 'ctagstype' : 'monkey',
     \ 'kinds'        : [
         \'c:classes',
+		\'y:constants',
+		\'g:globals',
         \'f:fields',
-        \'m:methods'
+        \'m:methods',
+		\'x:functions'
     \],
     \ 'sro' : '.',
     \ 'kind2scope' : {

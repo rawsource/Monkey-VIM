@@ -2,4 +2,7 @@
 --langmap=monkey:.monkey
 --regex-monkey=/^[ \t]*Class[ \t]*([a-zA-Z0-9_]+)/\1/c,classes/
 --regex-monkey=/^[ \t]*Field[ \t]*([a-zA-Z0-9_]+)/\1/f,fields/
+--regex-monkey=/^[ \t]*Global[ \t]*([a-zA-Z0-9_]+)/\1/g,globals/
+--regex-monkey=/^[ \t]*Const[ \t]*([a-zA-Z0-9_]+)/\1/y,constants/
 --regex-monkey=/^[ \t]*Method[ \t]*([a-zA-Z0-9_]+)/\1/m,methods/
+--regex-monkey=/^[ \t]*Function[ \t]*([a-zA-Z0-9_]+)/\1/x,functions/
