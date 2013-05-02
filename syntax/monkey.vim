@@ -15,7 +15,7 @@ endif
 
 
 
-syn keyword monkeySyntax Void Strict Public Private Propery Bool Int Float String Array Object Mod Continue Exit Include Import Extern New Self Null Super EachIn True False Not Extends Abstract Select Case Default Const Local Global Field Method Function Class And Or Shl Shr End If Then Else ElseIf EndIf While Wend Repeat Until Forever For To Step Next Return Module Interface Implements Inline Array
+syn keyword monkeySyntax Void Strict Public Private Propery Bool Int Float String Array Object Mod Continue Exit Include Import Extern New Self Null Super EachIn True False Not Extends Abstract Select Case Default Const Local Global Field Method Function Class And Or Shl Shr End If Then Else Elseif Endif While Wend Repeat Until Forever For To Step Next Return Module Interface Implements Inline Array
 syn keyword monkeyPreprocessor #if #else #endif #print #error HOST LANG TARGET CONFIG
 
 " mojo.app
